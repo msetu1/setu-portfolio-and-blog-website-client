@@ -1,8 +1,11 @@
+import Introduction from "@/components/ui/Introduction";
+import Skills from "@/components/ui/Skills";
 
 const HomePage = () => {
   return (
     <div>
-      Welcome to home page
+     <Introduction/>
+     <Skills/>
     </div>
   );
 };
