@@ -44,11 +44,11 @@ const Introduction = () => {
                     let's connect! Email me or use the provided information.
                 </p>
                 <div className="flex gap-5">
-                    <a href="/public/setu-resume/Setu-Resume.pdf" download>
-                    <button className="flex  items-center gap-2 border-2 border-[#15803d] px-2 py-2 rounded-md">
-                        <MdOutlineFileDownload /> My resume
-                    </button>
-                    </a>
+                <a href="/setu-resume/resume_of_setu.pdf" download>
+        <button className="flex items-center gap-2 border-2 border-[#15803d] px-2 py-2 rounded-md">
+            <MdOutlineFileDownload /> My resume
+        </button>
+    </a>
                 </div>
                 <div className="flex mt-6 gap-4">
                     <div className="bg-slate-700 rounded-full p-3 shadow-lg hover:bg-green-600 ">
