@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { FiMenu, FiX } from 'react-icons/fi';
+import { MdOutlineFileDownload } from 'react-icons/md';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +24,7 @@ const Navbar = () => {
         </button>
         
         {/* Nav Links */}
-        <ul className={`lg:flex space-x-6  ${isOpen ? 'block' : 'hidden'} lg:block`}>
+        <ul className={`lg:flex items-center space-x-6  ${isOpen ? 'block' : 'hidden'} lg:block`}>
           <li><Link href="/" className="hover:text-green-400">Home</Link></li>
           <li><Link href="/projects" className="hover:text-green-400">Projects</Link></li>
           <li><Link href="/blog" className="hover:text-green-400">Blog</Link></li>
@@ -33,6 +34,11 @@ const Navbar = () => {
               Login
             </Link>
           </li>
+          <a href="/setu-resume/resume_of_setu.pdf" download>
+                    <button className="flex items-center border hover:rounded-full px-4 py-2 rounded-md font-bold text-sm text-white">
+                        <MdOutlineFileDownload /> My resume
+                    </button>
+            </a>
         </ul>
       </div>
     </nav>

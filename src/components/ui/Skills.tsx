@@ -3,7 +3,7 @@
 const Skills = () => {
     return (
         <div className='flex lg:max-w-[80%] lg:mx-auto my-20 gap-8'>
-            <div className="w-[50%] border">
+            <div className="w-[50%] ">
                 <h2 className='text-[30px] font-bold mb-4'>Front-End Web Developer.</h2>
                 <p>✨ Bringing Ideas to Life Through Engaging Digital Experiences ✨
 
@@ -23,7 +23,7 @@ Passionate web developer with a creative mindset and a sharp eye for detail. I b
                 </div>
     </div>
             </div>
-            <div className="w-[50%] border">
+            <div className="w-[50%] ">
             <h2 className='text-[30px] font-bold mb-5 underline text-center'>Skills </h2>
              <div className="grid grid-cols-1 lg:grid-cols-4 gap-3">
                 <button className="gap-2 border-2 border-[#15803d] rounded-full px-4 py-2">
